@@ -36,7 +36,7 @@ void StackPush(Stack* s, DataType x)
 		s->_array = (DataType*)realloc(s->_array, sizeof(DataType)*size);
 		assert(s);
 		s->end = size;
-	}
+	} 
 	s->_array[s->top++] = x;	
 }
 
@@ -58,7 +58,7 @@ size_t StackSize(Stack* s)
 	return s->top;
 }
 
-//返回0就是空
+//路碌禄脴0戮脥脢脟驴脮
 int StackEmpty(Stack* s)
 {
 	assert(s);
