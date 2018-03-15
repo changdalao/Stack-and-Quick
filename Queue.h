@@ -18,7 +18,7 @@ typedef struct Queue
 	QueueNode* _tail;
 }Queue;
 
-//�ӿڲ���
+//½Ó¿Ú²Ù×÷
 void QueueInit(Queue* q);
 void QueuePush(Queue* q, DataType x);
 void QueuePop(Queue* q);
@@ -32,7 +32,7 @@ void QueueInit(Queue* q)
 	assert(q);
 	q->_head = q->_tail = NULL;
 }
-
+ 
 void QueuePush(Queue* q, DataType x)
 {
 	assert(q);
